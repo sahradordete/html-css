@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Uso de iframes</title>
+    <style>
+        body {
+            font-family: Arial, Helvetica, sans-serif;
+        }
+
+        iframe#tela {
+            width: 95vw;
+            height: 400px;
+            border: 2px solid black;
+        }
+    </style>
+</head>
+<body>
+    <h1>Faça uma escolha</h1>
+    <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Autem harum eligendi delectus velit sit. Qui sint vel voluptas reiciendis nostrum officia error maiores illo voluptatibus suscipit. Voluptatibus beatae perferendis debitis! Lorem, ipsum dolor sit amet consectetur adipisicing elit. Odio ducimus natus omnis impedit rerum tenetur, blanditiis quod, nam ipsum sunt, atque debitis porro necessitatibus dolorum hic et officia optio. Suscipit.</p>
+
+    <ul>
+        <li><a href="paginas-extras/pag001.html" target="frame">Primeira página</a></li>
+        <li><a href="paginas-extras/pag002.html" target="frame">Segunda página</a></li>
+        <li><a href="paginas-extras/pag003.html" target="frame">Terceira página</a></li>
+    </ul>
+
+    <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Et dicta laboriosam ad exercitationem, sequi culpa id magnam, voluptatem veritatis aspernatur ea. Libero esse impedit obcaecati delectus at tenetur a magni. Lorem ipsum dolor sit amet consectetur adipisicing elit. Neque accusantium in impedit! Sapiente, et architecto? Nobis, ratione ab deserunt dolorum blanditiis sed libero fugit illo dolore delectus odit, optio quasi.</p>
+
+    <iframe id="tela" name="frame" srcdoc="<h1>Escolha uma das opções acima</h1><p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Aperiam aliquid inventore consectetur porro, facere corporis? Nesciunt autem mollitia nam voluptate sit, placeat natus veniam hic libero assumenda tempore dolores! Cumque.</p> <img src='imagens/dog-pequeno.png'>">
+        <p>Infelizmente seu navegador não é compatível com isso.</p>
+    </iframe>
+
+    <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Aperiam aliquid inventore consectetur porro, facere corporis? Nesciunt autem mollitia nam voluptate sit, placeat natus veniam hic libero assumenda tempore dolores! Cumque.</p>
+</body>
+</html>
